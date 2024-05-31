@@ -23,8 +23,7 @@
                                         <div class="mb-3">
                                             <label class="form-label">Email</label>
                                             <input class="form-control form-control-lg" type="email"
-                                                name="email" id="email" placeholder="Enter your email" 
-                                                value="tonyentertain@gmail.com"/>
+                                                name="email" id="email" placeholder="Enter your email" />
 
                                             @error('email')
                                                 <p class="text-sm error-message mt-1">{{ $message }}</p>
@@ -34,8 +33,7 @@
                                         <div class="mb-3">
                                             <label class="form-label">Password</label>
                                             <input class="form-control form-control-lg" type="password"
-                                                name="password" id="password" placeholder="Enter your password" 
-                                                value="12345678"/>
+                                                name="password" id="password" placeholder="Enter your password" />
 
                                             @error('password')
                                                 <p class="text-sm error-message mt-1">{{ $message }}</p>
